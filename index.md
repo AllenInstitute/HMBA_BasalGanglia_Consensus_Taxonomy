@@ -2,7 +2,7 @@
 layout: default
 ---
 
-![](https://github.com/AllenInstitute/HMBA_BasalGanglia_Consensus_Taxonomy/assets/images/lowres_taxonomy.png)
+![Taxonomy](https://github.com/AllenInstitute/HMBA_BasalGanglia_Consensus_Taxonomy/assets/images/lowres_taxonomy.png)
 
 The basal ganglia (BG) are a system of interconnected brain structures that play a crucial role in motor control, learning, behavior, and emotion. With approximately 200 million neurons in the human basal ganglia alone, these structures are involved in a wide range of neurological processes and are implicated in numerous disorders affecting human health, including Parkinson’s disease, Huntington’s disease, and substance abuse disorders. To further understand the complexity of the basal ganglia, researchers have historically classified its neurons into various types based on their cytoarchitecture, connectivity, molecular profile, and functional properties. Recent advancements in high-throughput transcriptomic profiling and machine learning have revolutionized our ability to systematically categorize these cell types within species and integrate the taxonomies across species. We present a unified taxonomy of the mammalian basal ganglia, providing unprecedented insights into the conserved and divergent features of this system across humans, macaques, marmosets, and mice. 
 
@@ -49,7 +49,7 @@ In collaboration with the BRAIN Armamentarium Consortium, we have developed an e
 
 Cell type subclasses in BG regions are conserved between mouse, human, and non-human primates. Candidate enhancers were identified for the major BG cell subclasses using a novel computational pipeline (CERP). Additional CERP enhancers were selected to target other BG cell populations, including groups of cell types with regional enrichment, such as dorsal vs. ventral striatum. 
 
-![](https://github.com/AllenInstitute/HMBA_BasalGanglia_Consensus_Taxonomy/assets/images/BG_tools.png)
+![BG_tools](https://github.com/AllenInstitute/HMBA_BasalGanglia_Consensus_Taxonomy/assets/images/BG_tools.png)
 
 ## Major cell types of basal ganglia targeted for viral tool labeling
 * * *
