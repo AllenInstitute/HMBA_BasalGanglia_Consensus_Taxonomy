@@ -63,7 +63,7 @@ This resource will facilitate deeper exploration into the diversity of basal gan
 
 This page aims to serve as a gateway for researchers to access and explore our consensus basal ganglia cell type taxonomy. Through this resource, we hope to advance the understanding of basal ganglia function, facilitate the development of targeted therapies, and contribute to the broader field of comparative neurobiology. We encourage users to explore complementary efforts from both internal and outside collaborators.  
 
-![GTA](./assets/images/GeneticToolsAtlas.png) **Genetic Tools Atlas**
+<img src="./assets/images/GeneticToolsAtlas.png" width=50% height=50%> **Genetic Tools Atlas**
 
 ![addgene](./assets/images/addgene.png) [BRAIN Armamentarium Collection](https://www.addgene.org/collections/brain-armamentarium/) of viral tools to target BG cell types 
 
@@ -71,5 +71,5 @@ This page aims to serve as a gateway for researchers to access and explore our c
 
 Supported by the NIH BRAIN Initiative Armamentarium grant UF1MH128339 and Cell Atlas Network grant UM1MH130981. 
 
-![NIH_Brain](./assets/images/NIH_BRAIN.png) ![Brain](./assets/images/BRAIN.png) ![HMBA](./assets/images/HMBA.png)
-![AIBS](./assets/images/AIBS.png)
+![NIH_Brain](./assets/images/NIH_BRAIN.png) ![Brain](./assets/images/BRAIN.png)
+![HMBA](./assets/images/HMBA.png) ![AIBS](./assets/images/AIBS.png)
