@@ -4,8 +4,6 @@ layout: default
 
 ![Taxonomy](./assets/images/lowres_taxonomy.png)
 
-<img src="./assets/images/lowres_taxonomy.png" alt="taxonomy">
-
 The basal ganglia (BG) are a system of interconnected brain structures that play a crucial role in motor control, learning, behavior, and emotion. With approximately 200 million neurons in the human basal ganglia alone, these structures are involved in a wide range of neurological processes and are implicated in numerous disorders affecting human health, including Parkinson’s disease, Huntington’s disease, and substance abuse disorders. To further understand the complexity of the basal ganglia, researchers have historically classified its neurons into various types based on their cytoarchitecture, connectivity, molecular profile, and functional properties. Recent advancements in high-throughput transcriptomic profiling and machine learning have revolutionized our ability to systematically categorize these cell types within species and integrate the taxonomies across species. We present a unified taxonomy of the mammalian basal ganglia, providing unprecedented insights into the conserved and divergent features of this system across humans, macaques, marmosets, and mice. 
 
 ## Consensus Cell Type Nomenclature 
@@ -65,8 +63,13 @@ This resource will facilitate deeper exploration into the diversity of basal gan
 
 This page aims to serve as a gateway for researchers to access and explore our consensus basal ganglia cell type taxonomy. Through this resource, we hope to advance the understanding of basal ganglia function, facilitate the development of targeted therapies, and contribute to the broader field of comparative neurobiology. We encourage users to explore complementary efforts from both internal and outside collaborators.  
 
-BRAIN Armamentarium Collection of viral tools to target BG cell types 
+![GTA](./assets/images/GeneticToolsAtlas.png) **Genetic Tools Atlas**
 
-Cross-species Enhancer Ranking Pipeline (CERP) - Identify candidate enhancers in regions of open chromatin using single nucleus ATAC-seq data sets. Prioritize candidate enhancers based on conserved cell type-specific chromatin accessibility between macaque and mouse using ranking modules such as PeakRankR. 
+![addgene](./assets/images/addgene.png) [BRAIN Armamentarium Collection](https://www.addgene.org/collections/brain-armamentarium/) of viral tools to target BG cell types 
+
+[Cross-species Enhancer Ranking Pipeline (CERP)](https://github.com/AllenInstitute/CERP) - Identify candidate enhancers in regions of open chromatin using single nucleus ATAC-seq data sets. Prioritize candidate enhancers based on conserved cell type-specific chromatin accessibility between macaque and mouse using ranking modules such as [PeakRankR](https://github.com/AllenInstitute/PeakRankR). 
 
 Supported by the NIH BRAIN Initiative Armamentarium grant UF1MH128339 and Cell Atlas Network grant UM1MH130981. 
+
+![NIH_Brain](./assets/images/NIH_BRAIN.png) ![Brain](./assets/images/BRAIN.png) ![HMBA](./assets/images/HMBA.png)
+![AIBS](./assets/images/AIBS.png)
