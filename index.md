@@ -49,7 +49,18 @@ Additional details about building and organizing Allen Institute Taxonomy (AIT) 
 ## **Cell type mapping with MapMyCells**
 * * *
 
-Text and example notebook being prepared.
+Below we provide links to the supporting data files necessary to map unlabeled
+data onto the taxonomy using
+[cell_type_mapper,](https://github.com/AllenInstitute/cell_type_mapper)
+the python backend for MapMyCells. An
+[example notebook](https://github.com/AllenInstitute/HMBA_BasalGanglia_Consensus_Taxonomy/blob/main/examples/using_MapMyCells_data.ipynb)
+is provided in the
+`examples/` directory of this repository showing how to map unlabeled data
+onto the taxonomy using these files.
+
+At this point, files are separated by species. Human data should be mapped
+with the human data files, macaque data with the macaque data files,
+and marmoset data with the marmoset data files.
 
 | Species        | precomputed_stats | query_markers |
 |:---------------|:-------------|:--------------|
