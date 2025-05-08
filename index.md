@@ -49,7 +49,7 @@ Additional details about building and organizing Allen Institute Taxonomy (AIT) 
 
 Below we provide links to the supporting data files necessary to map unlabeled
 data onto the taxonomy using
-(cell_type_mapper,)[https://github.com/AllenInstitute/cell_type_mapper]
+[cell_type_mapper,](https://github.com/AllenInstitute/cell_type_mapper)
 the python backend for MapMyCells. An example notebook is provided in the
 `examples/` directory of this repository showing how to map unlabeled data
 onto the taxonomy using these files.
