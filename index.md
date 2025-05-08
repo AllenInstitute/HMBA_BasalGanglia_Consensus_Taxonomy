@@ -6,7 +6,7 @@ The basal ganglia (BG) are a system of interconnected brain structures that play
 
 In summary we are providing: 
 
-* A Cross-species taxonomy of basal ganglia [Jump to section](#rna-seq-data)
+* [A Cross-species taxonomy of basal ganglia](#rna-seq-data)
 * Comprehensive and consistent cell, cluster and sample metadata.
 * MapMyCells objects for mapping using `cell_type_mapper`
 * Cell Annotation Platform (CAP) for continued annotation. _(pending)_
