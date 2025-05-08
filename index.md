@@ -28,23 +28,32 @@ To support the HMBA consensus cell type taxonomy, we have compiled extensive met
 
 Our consensus basal ganglia cell type taxonomy is the result of [iterative clustering](https://github.com/AllenInstitute/transcriptomic_clustering) and cross-species integration of transcriptomic data from single-nucleus 10x Genomics multiomic profiling. The taxonomy encompasses neurons from key structures within the basal ganglia, including the caudate (Ca), putamen (Pu), nucleus accumbens (NAc), the external and internal segments of the globus pallidus (GPe, GPi), subthalamic nucleus (STN), and substantia nigra (SN). By combining data from multiple primate and rodent species, we have developed a consensus taxonomy that highlights both conserved and species-specific cell types. We validate our taxonomy through marker gene expression analysis, comparison with previously published taxonomies, and self-projection, ensuring the accuracy and robustness of each level in the taxonomic hierarchy. 
 
-## **Data and Cell Type Mapping**
+## **RNA-seq data**
 * * *
 
-Here we provide an initial version of the HMBA basal ganglia consensus taxonomy annotated onto both human and macaque 10X multiome (RNA-seq) profiling. Within each Allen Institute Taxonomy (AIT) .h5ad object you will find components necessary for analysis, visualization and cell type mapping using various algorithms via [scrattch.mapping](https://github.com/AllenInstitute/scrattch.mapping) or [cell_type_mapper](https://github.com/AllenInstitute/cell_type_mapper). 
+Here we provide the pre-print ready version of the HMBA basal ganglia consensus taxonomy annotated onto human, macaque and marmoset 10X multiome (RNA-seq) profiling. Within each Allen Institute Taxonomy (AIT) .h5ad object you will find components necessary for analysis, visualization. Files required for cell type mapping are shared in the next section.
 
 The AIT .h5ad files are organized according to a schema: 
 
-| Species        | File Format  | Size          | Data Download     | Annotation Sheet |
-|:---------------|:-------------|:--------------|:------------------|:-----------------|
-| Human          | AIT (.h5ad)  | 34GB          | [AWS S3 URL](https://released-taxonomies-802451596237-us-west-2.s3.us-west-2.amazonaws.com/HMBA/BasalGanglia/HMBA_Human_BG_082024_AIT.h5ad)        | [Google Sheet](https://docs.google.com/spreadsheets/d/1P0AnChVqlkCDawg_-ggTY0PIjHvxDyfAmx_p9H4S6PQ/edit?usp=sharing)
-| Macaque        | AIT (.h5ad)  | 25GB          | [AWS S3 URL](https://released-taxonomies-802451596237-us-west-2.s3.us-west-2.amazonaws.com/HMBA/BasalGanglia/HMBA_Macaque_BG_082024_AIT.h5ad)        | [Google Sheet](https://docs.google.com/spreadsheets/d/1eh_fetTw6rQNmd53n2W6CbmrjgBTJsShqFtewL7VliQ/edit?usp=sharing) 
-| Marmoset       | AIT (.h5ad)  | TBD           | Available Q1 2025 | Available Q1 2025
-| Mouse          | AIT (.h5ad)  | TBD           | Available Q1 2025 | Available Q1 2025
+| Species        | File Format  | Size          | Data Download     |
+|:---------------|:-------------|:--------------|:------------------|
+| Human          | AIT (.h5ad)  | 105G          | [AWS S3 URL](https://released-taxonomies-802451596237-us-west-2.s3.us-west-2.amazonaws.com/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/Human_HMBA_basalganglia_AIT_pre-print.h5ad)
+| Macaque        | AIT (.h5ad)  | 32GB          | [AWS S3 URL](https://released-taxonomies-802451596237-us-west-2.s3.us-west-2.amazonaws.com/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/Macaque_HMBA_basalganglia_AIT_pre-print.h5ad)
+| Marmoset       | AIT (.h5ad)  | 30GB          | [AWS S3 URL](https://released-taxonomies-802451596237-us-west-2.s3.us-west-2.amazonaws.com/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/Marmoset_HMBA_basalganglia_AIT_pre-print.h5ad)
+| Mouse          | AIT (.h5ad)  | TBD           | Available Q2 2025
 
-Additional details about building and organizing Allen Institute Taxonomy (AIT) files can be found here: [scrattch.taxonomy](https://github.com/AllenInstitute/scrattch.taxonomy). 
+Additional details about building and organizing Allen Institute Taxonomy (AIT) files can be found here: [AllenInstituteTaxonomy](https://github.com/AllenInstitute/AllenInstituteTaxonomy). 
 
-For tutorials showcasing how to use AIT files easily with basic and MapMyCells algorithms, please visit our scrattch.mapping [tutorial](https://github.com/AllenInstitute/scrattch.mapping/blob/main/examples/mapping.md). 
+## ** Cell type mapping with MapMyCells**
+* * *
+.... Some text from Scott / Lydia
+
+| Species        | precomputed_stats | query_markers |
+|:---------------|:-------------|:--------------|
+| Human          | [AWS S3 URL](https://released-taxonomies-802451596237-us-west-2.s3.us-west-2.amazonaws.com/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/MapMyCells/Human.precomputed_stats.20250507.h5)  | [AWS S3 URL](https://released-taxonomies-802451596237-us-west-2.s3.us-west-2.amazonaws.com/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/MapMyCells/Human.query_markers.20250507.json)
+| Macaque        | [AWS S3 URL](https://released-taxonomies-802451596237-us-west-2.s3.us-west-2.amazonaws.com/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/MapMyCells/Macaque.precomputed_stats.20250507.h5)  | [AWS S3 URL](https://released-taxonomies-802451596237-us-west-2.s3.us-west-2.amazonaws.com/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/MapMyCells/Macaque.query_markers.20250507.json)
+| Marmoset       | [AWS S3 URL](https://released-taxonomies-802451596237-us-west-2.s3.us-west-2.amazonaws.com/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/MapMyCells/Marmoset.precomputed_stats.20250507.h5)  | [AWS S3 URL](https://released-taxonomies-802451596237-us-west-2.s3.us-west-2.amazonaws.com/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/MapMyCells/Marmoset.query_markers.20250507.json)
+| Mouse          | Available Q2 2025  | Available Q2 2025
 
 ## **A Cell Type-Specific Enhancer Virus Tool Collection** 
 * * *
