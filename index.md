@@ -44,7 +44,7 @@ The AIT .h5ad files are organized according to a schema:
 
 Additional details about building and organizing Allen Institute Taxonomy (AIT) files can be found here: [AllenInstituteTaxonomy](https://github.com/AllenInstitute/AllenInstituteTaxonomy). 
 
-## ** Cell type mapping with MapMyCells**
+## **Cell type mapping with MapMyCells**
 * * *
 .... Some text from Scott / Lydia
 
