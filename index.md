@@ -46,7 +46,8 @@ Additional details about building and organizing Allen Institute Taxonomy (AIT) 
 
 ## **Cell type mapping with MapMyCells**
 * * *
-.... Some text from Scott / Lydia
+
+Text and example notebook being prepared.
 
 | Species        | precomputed_stats | query_markers |
 |:---------------|:-------------|:--------------|
