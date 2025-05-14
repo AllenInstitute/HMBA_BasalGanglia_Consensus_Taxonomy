@@ -79,7 +79,7 @@ Documentation and tutorials on how to access and visualize the HMBA basal gangli
 * [Constellation Plot Viewer](http://52.88.222.190:8080/constellation_plot?taxonomy_name=bg_aligned.20250507.h5&default=true)
 * References
   * [Cluster annotation terms](https://alleninstitute.github.io/abc_atlas_access/_static/HMBA-BG-taxonomy-CCN20250428/20250531/Cluster.html)
-  * [Abbreviation glossary]()
+  * [Abbreviation glossary](https://alleninstitute.github.io/abc_atlas_access/_downloads/d86c2fd08499526ee8055d3d226b284a/abbreviation_list.html)
   * Gene Lists: [Marmoset](https://alleninstitute.github.io/abc_atlas_access/_downloads/b59b8bc2a33bf0b258bc736c6dbde858/marmoset_gene_list.html), [Macaque](https://alleninstitute.github.io/abc_atlas_access/_downloads/1c6316f1f9c3b06d91cf35de445b773e/macaque_gene_list.html), [Human](https://alleninstitute.github.io/abc_atlas_access/_downloads/d734b711efd7aa6c4f7ef2afc0274fac/human_gene_list.html), [Aligned](https://alleninstitute.github.io/abc_atlas_access/_downloads/69248ab1d6064168546cee646919345d/gene_list.html)
 
 
