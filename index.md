@@ -72,7 +72,7 @@ and marmoset data with the marmoset data files.
 ## **ABC Atlas Access Tools**
 * * *
 
-[![Constellation](./assets/images/hmba_bg_group_constellation_on_gray_small.png)](http://52.88.222.190:8080/constellation_plot?taxonomy_name=bg_aligned.20250507.h5&default=true)
+[![Constellation](./assets/images/hmba_bg_group_constellation_on_gray_small.png)](http://35.88.252.188:8080/constellation_plot?taxonomy_name=bg_aligned.for_download.20250507.h5&default=true)
 
 Documentation and tutorials on how to access and visualize the HMBA basal ganglia consensus taxonomy using ABC Atlas Access Tools.
 * **Notebook Tutorials**
