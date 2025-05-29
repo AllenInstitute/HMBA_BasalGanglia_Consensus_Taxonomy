@@ -84,6 +84,31 @@ Documentation and tutorials on how to access and visualize the HMBA basal gangli
   * [Abbreviation glossary](https://alleninstitute.github.io/abc_atlas_access/_downloads/d86c2fd08499526ee8055d3d226b284a/abbreviation_list.html)
   * Gene Lists: [Marmoset](https://alleninstitute.github.io/abc_atlas_access/_downloads/b59b8bc2a33bf0b258bc736c6dbde858/marmoset_gene_list.html), [Macaque](https://alleninstitute.github.io/abc_atlas_access/_downloads/1c6316f1f9c3b06d91cf35de445b773e/macaque_gene_list.html), [Human](https://alleninstitute.github.io/abc_atlas_access/_downloads/d734b711efd7aa6c4f7ef2afc0274fac/human_gene_list.html), [Aligned](https://alleninstitute.github.io/abc_atlas_access/_downloads/69248ab1d6064168546cee646919345d/gene_list.html)
 
+## **ATAC-seq data**
+
+Here we provide the pre-print ready version of the HMBA basal ganglia consensus taxonomy annotated onto human, macaque and marmoset 10X multiome (ATAC-seq) profiling. We are providing ATAC-seq at various stages of processing: (1) fragment files in snapatac2 .h5ad format, (2) Group level bigwigs and (3) MACS3 peak calling. 
+
+### **Snapatac2**
+| Species        | File Format  | Data Download (s3 URI)     |
+|:---------------|:-------------|:------------------|
+| Human          | snapatac2  | s3://released-taxonomies-802451596237-us-west-2/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/ATAC/human/snapatac2/
+| Macaque        | snapatac2  | s3://released-taxonomies-802451596237-us-west-2/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/ATAC/macaque/snapatac2/
+| Marmoset       | snapatac2  | s3://released-taxonomies-802451596237-us-west-2/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/ATAC/marmoset/snapatac2/
+
+## **Bigwigs (Group)**
+| Species        | File Format  | Data Download (s3 URI)     |
+|:---------------|:-------------|:------------------|
+| Human          | bigwig (Group) | s3://released-taxonomies-802451596237-us-west-2/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/ATAC/human/bigwigs/
+| Macaque        | bigwig (Group) | s3://released-taxonomies-802451596237-us-west-2/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/ATAC/macaque/bigwigs/
+| Marmoset       | bigwig (Group) | s3://released-taxonomies-802451596237-us-west-2/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/ATAC/marmoset/bigwigs/
+
+## **Peak calling**
+| Species        | File Format  | Data Download (s3 URI)     |
+|:---------------|:-------------|:------------------|
+| Human          | bed, csv | s3://released-taxonomies-802451596237-us-west-2/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/ATAC/human/peaks/
+| Macaque        | bed, csv | s3://released-taxonomies-802451596237-us-west-2/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/ATAC/macaque/peaks/
+| Marmoset       | bed, csv | s3://released-taxonomies-802451596237-us-west-2/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/ATAC/marmoset/peaks/
+
 
 ## **A Cell Type-Specific Enhancer Virus Tool Collection** 
 * * *
