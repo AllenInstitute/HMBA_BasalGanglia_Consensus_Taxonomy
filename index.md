@@ -86,7 +86,7 @@ Documentation and tutorials on how to access and visualize the HMBA basal gangli
 
 ## **ATAC-seq data**
 
-Here we provide the pre-print ready version of the HMBA basal ganglia consensus taxonomy annotated onto human, macaque and marmoset 10X multiome (ATAC-seq) profiling. We are providing ATAC-seq at various stages of processing: (1) fragment files in snapatac2 .h5ad format, (2) Group level bigwigs and (3) MACS3 peak calling. 
+Here we provide the pre-print ready version of the HMBA basal ganglia consensus taxonomy annotated onto human, macaque and marmoset 10X multiome (ATAC-seq) profiling. We are providing ATAC-seq at various stages of processing with snaptac2: (1) fragment files in .h5ad format, (2) Group level bigwigs and (3) MACS3 peak calling. 
 
 ### **Snapatac2**
 | Species        | File Format  | Data Download (s3 URI)     |
