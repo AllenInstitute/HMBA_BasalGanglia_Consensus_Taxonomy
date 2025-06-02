@@ -88,27 +88,7 @@ Documentation and tutorials on how to access and visualize the HMBA basal gangli
 
 Here we provide the pre-print ready version of the HMBA basal ganglia consensus taxonomy annotated onto human, macaque and marmoset 10X multiome (ATAC-seq) profiling. We are providing ATAC-seq at various stages of processing with snaptac2: (1) fragment files in .h5ad format, (2) Group level bigwigs and (3) MACS3 peak calling. 
 
-### **Snapatac2**
-| Species        | File Format  | Data Download (s3 URI)     |
-|:---------------|:-------------|:------------------|
-| Human          | snapatac2  | s3://released-taxonomies-802451596237-us-west-2/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/ATAC/human/snapatac2/
-| Macaque        | snapatac2  | s3://released-taxonomies-802451596237-us-west-2/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/ATAC/macaque/snapatac2/
-| Marmoset       | snapatac2  | s3://released-taxonomies-802451596237-us-west-2/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/ATAC/marmoset/snapatac2/
-
-## **Bigwigs (Group)**
-| Species        | File Format  | Data Download (s3 URI)     |
-|:---------------|:-------------|:------------------|
-| Human          | bigwig (Group) | s3://released-taxonomies-802451596237-us-west-2/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/ATAC/human/bigwigs/
-| Macaque        | bigwig (Group) | s3://released-taxonomies-802451596237-us-west-2/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/ATAC/macaque/bigwigs/
-| Marmoset       | bigwig (Group) | s3://released-taxonomies-802451596237-us-west-2/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/ATAC/marmoset/bigwigs/
-
-## **Peak calling**
-| Species        | File Format  | Data Download (s3 URI)     |
-|:---------------|:-------------|:------------------|
-| Human          | bed, csv | s3://released-taxonomies-802451596237-us-west-2/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/ATAC/human/peaks/
-| Macaque        | bed, csv | s3://released-taxonomies-802451596237-us-west-2/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/ATAC/macaque/peaks/
-| Marmoset       | bed, csv | s3://released-taxonomies-802451596237-us-west-2/HMBA/BasalGanglia/BICAN_05072025_pre-print_release/ATAC/marmoset/peaks/
-
+Data for all species and levels of processing can be found at the **public** AWS s3 bucket: `s3://hmba-bican-sharing-802451596237-us-west-2/BasalGanglia_pre-print_ATAC/`.
 
 ## **A Cell Type-Specific Enhancer Virus Tool Collection** 
 * * *
