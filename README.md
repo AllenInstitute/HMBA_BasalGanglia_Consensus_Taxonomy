@@ -1,7 +1,7 @@
 ## Update log
 
 ### 8/1/2025
-Identified that SN GATA3-PAX8 GABA is sampled in Human but cells were filtered for an unknown reason.
+Identified that SN GATA3-PAX8 GABA is sampled in Human but cells were filtered for a yet unknown reason.
   * `Notebook`:
   * `Revised data location`:
 
