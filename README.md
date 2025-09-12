@@ -1,5 +1,8 @@
 ## Update log
 
+### 9/11/2025
+Identified from spatial data and re-inspection of taxonomy constellation diagram that Human cluster 23 is misidentified as STR D1 Striosome, should be STR D1 Matrix
+
 ### 8/1/2025
 Identified that SN GATA3-PAX8 GABA is sampled in Human but cells were filtered for a yet unknown reason.
   * `Notebook`:
