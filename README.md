@@ -1,3 +1,5 @@
+## Note: 
+Please report any corrections or specific ideas for name changes as [an issue on this repo](https://github.com/AllenInstitute/HMBA_BasalGanglia_Consensus_Taxonomy/issues). 
 ## Update log
 
 ### 9/11/2025
