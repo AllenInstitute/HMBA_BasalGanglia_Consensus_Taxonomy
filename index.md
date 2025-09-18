@@ -72,13 +72,13 @@ and marmoset data with the marmoset data files.
 ## **ABC Atlas Access Tools**
 * * *
 
-[![Constellation](./assets/images/hmba_bg_group_constellation_on_gray_small.png)](http://35.88.252.188:8080/constellation_plot?taxonomy_name=bg_aligned.for_download.20250507.h5&default=true)
+[![Constellation](./assets/images/hmba_bg_group_constellation_on_gray_small.png)](http://35.88.252.188:8080/)
 
 Documentation and tutorials on how to access and visualize the HMBA basal ganglia consensus taxonomy using ABC Atlas Access Tools.
 * **Notebook Tutorials**
   * [Clusters and annotation](https://alleninstitute.github.io/abc_atlas_access/notebooks/hmba_bg_clustering_analysis_and_annotation.html)
   * [Gene expression analysis](https://alleninstitute.github.io/abc_atlas_access/notebooks/hmba_bg_10X_snRNASeq_tutorial.html)
-* [**Constellation Plot Viewer**](http://35.88.252.188:8080/constellation_plot?taxonomy_name=bg_aligned.for_download.20250507.h5&default=true)
+* [**Constellation Plot Viewer**](http://35.88.252.188:8080/)
 * **References**
   * [Cluster annotation terms](https://alleninstitute.github.io/abc_atlas_access/_static/HMBA-BG-taxonomy-CCN20250428/20250531/Cluster.html)
   * [Abbreviation glossary](https://alleninstitute.github.io/abc_atlas_access/_downloads/d86c2fd08499526ee8055d3d226b284a/abbreviation_list.html)
