@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+
 <div style="padding: 1rem; background-color: #ffe0e0; border-left: 4px solid #d00; margin-bottom: 1.5rem;">
   <strong>Deprecation Notice:</strong>
   This resource is no longer maintained. Please visit the updated release here:
@@ -8,8 +9,6 @@ layout: default
     https://brain-map.org/consortia/hmba/hmba-release-basal-ganglia
   </a>.
 </div>
-
-<hr>
 
 ![Taxonomy](assets/images/overview_HMBA.png)
 
