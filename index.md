@@ -1,3 +1,6 @@
+---
+layout: default
+---
 <div style="padding: 1rem; background-color: #ffe0e0; border-left: 4px solid #d00; margin-bottom: 1.5rem;">
   <strong>Deprecation Notice:</strong>
   This resource is no longer maintained. Please visit the updated release here:
@@ -6,9 +9,8 @@
   </a>.
 </div>
 
----
-layout: default
----
+<hr>
+
 ![Taxonomy](assets/images/overview_HMBA.png)
 
 The basal ganglia (BG) are a system of interconnected brain structures that play a crucial role in motor control, learning, behavior, and emotion. With approximately 200 million neurons in the human basal ganglia alone, these structures are involved in a wide range of neurological processes and are implicated in numerous disorders affecting human health, including Parkinson’s disease, Huntington’s disease, and substance abuse disorders. To further understand the complexity of the basal ganglia, researchers have historically classified its neurons into various types based on their cytoarchitecture, connectivity, molecular profile, and functional properties. Recent advancements in high-throughput transcriptomic profiling and machine learning have revolutionized our ability to systematically categorize these cell types within species and integrate the taxonomies across species. We present a unified taxonomy of the mammalian basal ganglia, providing unprecedented insights into the conserved and divergent features of this system across humans, macaques, marmosets, and mice. 
